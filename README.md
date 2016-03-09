@@ -13,7 +13,7 @@ docker run \
     --detach \ 
     --publish 80:1313 \
     --volume $DIR:/hugo \
-    --name "hugo"
+    --name "hugo" \
     hugo \
     mydomain.com
 ```
